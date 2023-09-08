@@ -48,7 +48,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="10dp">
+            android:padding="12dp">
 
             <ImageView
                 android:id="@+id/iv_trolley_header"
@@ -203,7 +203,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:paddingTop="16dp"
-            android:paddingBottom="5dp"
+            android:paddingBottom="6dp"
             app:constraint_referenced_ids="cv_burger_category, cv_noodle_category, cv_juice_category, cv_snack_category"
             app:flow_horizontalStyle="spread_inside"
             app:flow_wrapMode="aligned"
@@ -269,7 +269,7 @@
                     android:id="@+id/iv_noodle_category"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginStart="5dp"
+                    android:layout_marginStart="6dp"
                     android:src="@drawable/ic_noodle_category"
                     android:contentDescription="@string/desc_noodle_category"/>
 
@@ -278,7 +278,7 @@
                     style="@style/TextAppearance.Material3.BodySmall"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="5dp"
+                    android:layout_marginEnd="6dp"
                     android:ellipsize="end"
                     android:text="@string/text_noodle_category"
                     android:textAlignment="center" />
@@ -305,7 +305,7 @@
                     android:id="@+id/iv_juice_category"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
-                    android:layout_marginStart="5dp"
+                    android:layout_marginStart="6dp"
                     android:src="@drawable/ic_juice_category"
                     android:contentDescription="@string/desc_juice_category"/>
 
@@ -314,7 +314,7 @@
                     style="@style/TextAppearance.Material3.BodySmall"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="5dp"
+                    android:layout_marginEnd="6dp"
                     android:ellipsize="end"
                     android:text="@string/text_juice_category"
                     android:textAlignment="center" />
@@ -341,7 +341,7 @@
                     android:id="@+id/iv_snack_category"
                     android:layout_width="30dp"
                     android:layout_height="35dp"
-                    android:layout_marginStart="5dp"
+                    android:layout_marginStart="6dp"
                     android:src="@drawable/ic_snack_category"
                     android:contentDescription="@string/desc_snack_category"/>
 
@@ -350,7 +350,7 @@
                     style="@style/TextAppearance.Material3.BodySmall"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="5dp"
+                    android:layout_marginEnd="6dp"
                     android:ellipsize="end"
                     android:text="@string/text_snack_category"
                     android:textAlignment="center" />
@@ -399,7 +399,7 @@
         <androidx.constraintlayout.helper.widget.Flow
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:paddingHorizontal="5dp"
+            android:paddingHorizontal="6dp"
             app:constraint_referenced_ids="cv_fish_burger,cv_beef_burger,cv_chicken_burger,cv_garden_burger"
             app:flow_horizontalStyle="spread_inside"
             app:flow_wrapMode="aligned"
@@ -424,7 +424,7 @@
                     android:id="@+id/iv_fish_burger"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="12dp"
                     android:src="@drawable/img_fish_burger"
                     android:contentDescription="@string/desc_fish_burger"/>
 
@@ -447,7 +447,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="horizontal"
-                    android:padding="10dp">
+                    android:padding="12dp">
 
                     <TextView
                         android:id="@+id/tv_price_fish_burger"
@@ -487,7 +487,7 @@
                     android:id="@+id/iv_beef_burger"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="12dp"
                     android:src="@drawable/img_beef_burger"
                     android:contentDescription="@string/desc_beef_burger"/>
 
@@ -510,7 +510,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="horizontal"
-                    android:padding="10dp">
+                    android:padding="12dp">
 
                     <TextView
                         android:id="@+id/tv_price_beef_burger"
@@ -551,7 +551,7 @@
                     android:id="@+id/iv_chicken_burger"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="12dp"
                     android:src="@drawable/img_chicken_burger"
                     android:contentDescription="@string/desc_chicken_burger"/>
 
@@ -575,7 +575,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="horizontal"
-                    android:padding="10dp">
+                    android:padding="12dp">
 
                     <TextView
                         android:id="@+id/tv_price_chicken_burger"
@@ -615,8 +615,8 @@
                     android:id="@+id/iv_garden_burger"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/img_big_mac_burger"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/img_garden_burger"
                     android:contentDescription="@string/desc_garden_burger"/>
 
                 <TextView
@@ -638,7 +638,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="horizontal"
-                    android:padding="10dp">
+                    android:padding="12dp">
 
                     <TextView
                         android:id="@+id/tv_price_garden_burger"

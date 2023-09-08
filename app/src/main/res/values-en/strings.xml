@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NinsFood</string>
+    <string name="text_header_greeting">what do you want to eat today?</string>
+    <string name="text_search">Search</string>
+    <string name="text_discount_desc">Order food through the application and get your doscount</string>
+    <string name="text_title_categories">Categories</string>
+    <string name="text_noodle_category">Noodle</string>
+    <string name="text_juice_category">Juice</string>
+    <string name="text_header_list_menu">List Of Menus</string>
+</resources>

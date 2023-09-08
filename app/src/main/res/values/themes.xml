@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NinsFood" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="Theme.NinsFood" parent="Base.Theme.NinsFood" />
+</resources>

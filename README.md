@@ -15,4 +15,3 @@ img_chicken_burger : https://unsplash.com/photos/E94j3rMcxlw
 img_fish_burger : https://unsplash.com/photos/JqnuWlHmDfE
 img_garden_burger : https://www.figma.com/community/file/1210159594789472944
 
-Device for preview : pixel 6 pro
